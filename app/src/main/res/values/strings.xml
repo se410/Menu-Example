@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Menu Example</string>
+    <string name="item_info_message">" menu item is selected"</string>
+    <string-array name="items">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Magenta</item>
+        <item>Yellow</item>
+        <item>Black</item>
+        <item>White</item>
+        <item>Gray</item>
+    </string-array>
+</resources>

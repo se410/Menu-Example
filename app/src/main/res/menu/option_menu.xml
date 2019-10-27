@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/app_bar_switch"
+        android:title="Switch"
+        app:actionLayout="@layout/switch_item"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/send"
+        android:title="Send"
+        android:icon="@drawable/ic_send"
+        app:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/account"
+        android:title="Account"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/others"
+        android:title="Other menus">
+        <menu>
+            <item
+                android:id="@+id/context_menu"
+                android:title="Context menu" />
+            <item
+                android:id="@+id/contextual_action_mode"
+                android:title="Contextual action mode" />
+            <item
+                android:id="@+id/popup_menu"
+                android:title="Popup menu" />
+        </menu>
+    </item>
+</menu>
